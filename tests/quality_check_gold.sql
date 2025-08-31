@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Quality Checks for Gold Layer (MySQL)
+Quality Checks for Gold Layer
 ===============================================================================
 Purpose:
     Validate surrogate key uniqueness and referential integrity in Gold layer views.
