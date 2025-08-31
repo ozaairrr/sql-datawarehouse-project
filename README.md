@@ -1,5 +1,5 @@
 # Data Warehouse Project
-
+- Welcome to the Data Warehouse and Analytics Project repository! 🚀
 ## Project Overview
 This project implements a multi-layered data warehouse following the Bronze, Silver, and Gold architecture. It covers data ingestion, cleansing, transformation, and dimensional modeling to provide clean, consistent, and analytics-ready data.
 
