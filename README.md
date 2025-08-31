@@ -1,6 +1,10 @@
 # Data Warehouse Project
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
 
+## 🧾 Project Overview
+This project implements a multi-layered data warehouse following the **Medallion Architecture** (Bronze, Silver, and Gold layers). It covers complete data lifecycle from ingestion to analytics-ready dimensional models.
+
+
 ## 🎯 Business Problem
 Organizations often struggle with fragmented data scattered across multiple systems (CRM, ERP, sales platforms), making it difficult to:
 - Get a unified view of customers, products, and sales performance
@@ -18,9 +22,6 @@ This project implements a **modern data warehouse architecture** that solves the
 3. **Creating Analytics-Ready Models**: Building dimensional models (star schema) with surrogate keys for efficient reporting
 4. **Automating ETL Processes**: Providing repeatable, automated data transformation workflows
 5. **Enabling Self-Service Analytics**: Creating business-friendly views that analysts can easily query
-
-## 🧾 Project Overview
-This project implements a multi-layered data warehouse following the **Medallion Architecture** (Bronze, Silver, and Gold layers). It covers complete data lifecycle from ingestion to analytics-ready dimensional models.
 
 ## 🏗️ Layers and Structure
 - **Bronze Layer:** Raw source data ingestion and storage with minimal processing
