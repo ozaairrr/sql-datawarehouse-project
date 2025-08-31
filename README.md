@@ -118,7 +118,7 @@ I am Ozair, a BCA graduate passionate about data analytics and engineering. I en
 - Add advanced error handling and monitoring
 
 ## 🤝 Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests to improve this data warehouse solution.
+Contributions are welcome!
 
 ## 📫 Connect with Me
 🔗 [LinkedIn - Shaikh Mohammad Ozair](https://www.linkedin.com/in/shaikh-mohammad-ozair-connect/)
