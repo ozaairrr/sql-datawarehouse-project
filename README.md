@@ -50,15 +50,7 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 ```
 
-## Future Improvements
-- Implement incremental loading strategies for scalability.
-- Add indexing and partitioning for performance optimization.
-- Enhance error handling and logging during ETL.
-- Expand quality checks with automated alerts.
+## About Me
+I am Ozair, a BCA graduate passionate about data engineering and data analytics. I enjoy building practical projects to sharpen my skills and solve real-world data problems.
 
-## Contribution
-Contributions are welcome. Feel free to open issues or pull requests for improvements or bug fixes.
-
-## Contact
-For questions or feedback, contact Ozair.
 
