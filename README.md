@@ -9,6 +9,8 @@ This project implements a multi-layered data warehouse following the Bronze, Sil
 - **Gold Layer:** Curated, business-friendly dimensional views and fact tables for reporting and analytics.
 - [dimcustomers, dimproducts, factsales]
 
+![Data Warehouse Architecture](https://github.com/ozaairrr/sql-datawarehouse-project/blob/a3ee8cd032fc6667783eceb8328a75c2270a695f/docs/data_architecture.png)
+
 ## Key Features
 - Automated ETL procedures from Bronze to Silver layer.
 - Comprehensive data quality checks for each layer.
