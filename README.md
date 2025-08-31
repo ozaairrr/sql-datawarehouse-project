@@ -120,5 +120,6 @@ I am Ozair, a BCA graduate passionate about data analytics and engineering. I en
 ## 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this data warehouse solution.
 
-## 📧 Contact
-For questions, feedback, or collaboration opportunities, feel free to reach out!
+## 📫 Connect with Me
+🔗 [LinkedIn - Shaikh Mohammad Ozair](https://www.linkedin.com/in/shaikh-mohammad-ozair-connect/)
+
