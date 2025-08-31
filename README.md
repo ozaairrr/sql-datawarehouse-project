@@ -107,9 +107,6 @@ The completed data warehouse solution delivers measurable business value:
 
 This project demonstrates production-level data engineering skills and modern data warehouse best practices suitable for enterprise environments.
 
-## ⭐ About Me
-I am Ozair, a BCA graduate passionate about data analytics and engineering. I enjoy building practical projects that solve real-world business problems and demonstrate modern data engineering practices. This project showcases my ability to design and implement end-to-end data solutions following industry best practices.
-
 ## 🔮 Future Enhancements
 - Implement incremental data loading for better scalability
 - Add automated data profiling and anomaly detection
@@ -119,6 +116,9 @@ I am Ozair, a BCA graduate passionate about data analytics and engineering. I en
 
 ## 🤝 Contributing
 Contributions are welcome!
+
+## ⭐ About Me
+I am Ozair, a BCA graduate passionate about data analytics and engineering. I enjoy building practical projects that solve real-world business problems and demonstrate modern data engineering practices. This project showcases my ability to design and implement end-to-end data solutions following industry best practices.
 
 ## 📫 Connect with Me
 🔗 [LinkedIn - Shaikh Mohammad Ozair](https://www.linkedin.com/in/shaikh-mohammad-ozair-connect/)
