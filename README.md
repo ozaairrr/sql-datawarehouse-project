@@ -6,7 +6,7 @@ This project implements a multi-layered data warehouse following the Bronze, Sil
 ## Layers and Structure
 - **Bronze Layer:** Raw source data ingestion and storage with minimal processing.
 - **Silver Layer:** Cleansed, standardized, and enriched data for further analysis.
-- **Gold Layer:** Curated, business-friendly dimensional views and fact tables for reporting and analytics.
+- **Gold Layer:** Curated, business-friendly dimensional views and fact tables for reporting and analytics. [dimcustomers, dimproducts, factsales]
 
 ## Key Features
 - Automated ETL procedures from Bronze to Silver layer.
