@@ -27,6 +27,7 @@ This project implements a multi-layered data warehouse following the Bronze, Sil
 4. Execute provided SQL scripts for data quality verification.
 
 ## Project Structure
+```
 /sql
 ├── bronze_layer.sql
 ├── silver_layer.sql
@@ -34,6 +35,7 @@ This project implements a multi-layered data warehouse following the Bronze, Sil
 ├── silver_load_procedure.sql
 └── data_quality_checks.sql
 /README.md
+```
 
 ## Future Improvements
 - Implement incremental loading strategies for scalability.
