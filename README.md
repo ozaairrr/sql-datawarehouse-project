@@ -50,7 +50,7 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 ```
 
-## About Me
+##⭐ About Me
 I am Ozair, a BCA graduate passionate about data engineering and data analytics. I enjoy building practical projects to sharpen my skills and solve real-world data problems.
 
 
