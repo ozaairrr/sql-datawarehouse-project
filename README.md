@@ -15,11 +15,6 @@ This project implements a multi-layered data warehouse following the Bronze, Sil
 - Data standardization for gender, marital status, product categorization, and dates.
 - Use of MySQL views for simplified access to analytical data.
 
-## Technologies Used
-- MySQL 8.0 for database management and SQL querying.
-- SQL scripts for ETL and data quality checks.
-- Stored procedures to automate data transformations.
-
 ## How to Use
 1. Load raw data files into the Bronze tables.
 2. Run the stored procedure `silver_load_procedure()` to populate Silver layer.
