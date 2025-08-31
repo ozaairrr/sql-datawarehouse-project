@@ -63,6 +63,6 @@ The completed project delivers a data warehouse solution that provides:
 This project demonstrates a production-appropriate architecture and practical SQL skills suitable for real-world data engineering and analytics tasks.
 
 ## ⭐ About Me
-I am Ozair, a BCA graduate passionate about data engineering and data analytics. I enjoy building practical projects to sharpen my skills and solve real-world data problems.
+I am Ozair, a BCA graduate passionate about data analytics and engineering. I enjoy building practical projects to sharpen my skills and solve real-world data problems.
 
 
