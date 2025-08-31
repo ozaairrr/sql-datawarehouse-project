@@ -1,12 +1,9 @@
-
 /*
 ===============================================================================
 DDL Script: Create Silver Tables
 ===============================================================================
-Script Purpose:
-    This script creates tables 'silver', dropping existing tables 
-    if they already exist.
-	  Run this script to re-define the DDL structure of 'bronze' Tables
+Purpose: Create cleaned and transformed Silver layer tables for the data warehouse.
+Includes timestamps to track data loading times.
 ===============================================================================
 */
 
@@ -77,4 +74,3 @@ CREATE TABLE silver_erp_px_cat_g1v2 (
     maintenance  VARCHAR(50) CHARACTER SET utf8mb4,
     dwh_create_date DATETIME(6) DEFAULT CURRENT_TIMESTAMP(6)
 );
-
