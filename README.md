@@ -1,6 +1,6 @@
 # Data Warehouse Project
 - Welcome to the Data Warehouse and Analytics Project repository! 🚀
-## Project Overview
+## 🧾Project Overview
 This project implements a multi-layered data warehouse following the Bronze, Silver, and Gold architecture. It covers data ingestion, cleansing, transformation, and dimensional modeling to provide clean, consistent, and analytics-ready data.
 
 ## Layers and Structure
@@ -21,7 +21,7 @@ This project implements a multi-layered data warehouse following the Bronze, Sil
 3. Use the Gold layer views for analytics and reporting.
 4. Execute provided SQL scripts for data quality verification.
 
-## Project Structure
+## 🎗️Project Structure
 ```
 data-warehouse-project/
 │
