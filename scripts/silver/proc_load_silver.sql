@@ -2,28 +2,23 @@
 ===============================================================================
 Stored Procedure: Load Silver Layer (Bronze -> Silver)
 ===============================================================================
-Script Purpose:
-    This stored procedure performs the ETL (Extract, Transform, Load) process to 
-    populate the 'silver'  tables from the 'bronze' tables.
-	Actions Performed:
-		- Truncates Silver tables.
-		- Inserts transformed and cleansed data from Bronze into Silver tables.
-		
-Parameters:
-    None. 
-	  This stored procedure does not accept any parameters or return any values.
+Purpose:
+    Performs the ETL process to populate Silver layer tables from Bronze layer.
+    Includes data cleansing, transformation, and standardization.
+    
+Actions:
+    - Truncates Silver tables before loading (full refresh).
+    - Inserts cleaned and transformed data from Bronze tables.
+    - Handles date conversions, null corrections, and standardized values.
 
-Usage Example:
+Usage:
     CALL silver_load_procedure();
 ===============================================================================
 */
-
 DELIMITER //
-
 CREATE PROCEDURE silver_load_procedure()
 BEGIN
-
-    -- silver_crm_cust_info
+    -- Load silver_crm_cust_info with latest customer records and cleaned attributes
     TRUNCATE TABLE silver_crm_cust_info;
     INSERT INTO silver_crm_cust_info
     (
@@ -59,7 +54,7 @@ BEGIN
     ) t 
     WHERE flag = 1;
 
-    -- silver_crm_prd_info
+    -- Load silver_crm_prd_info with product info and normalized categories
     TRUNCATE TABLE silver_crm_prd_info;
     INSERT INTO silver_crm_prd_info (
         prd_id,
@@ -88,7 +83,7 @@ BEGIN
         CAST(DATE_SUB(LEAD(prd_start_dt, 1) OVER (PARTITION BY prd_key ORDER BY prd_start_dt), INTERVAL 1 DAY) AS DATE) AS prd_end_dt
     FROM bronze_crm_prd_info;
 
-    -- silver_crm_sales_details
+    -- Load silver_crm_sales_details with cleansed and validated sales data
     TRUNCATE TABLE silver_crm_sales_details;
     INSERT INTO silver_crm_sales_details
     (
@@ -133,7 +128,7 @@ BEGIN
         END sls_price
     FROM bronze_crm_sales_details;
 
-    -- silver_erp_cust_az12
+    -- Load silver_erp_cust_az12 with transformed customer demographic data
     TRUNCATE TABLE silver_erp_cust_az12;
     INSERT INTO silver_erp_cust_az12
     (
@@ -157,7 +152,7 @@ BEGIN
         END AS gen
     FROM bronze_erp_cust_az12;
 
-    -- silver_erp_loc_a101
+    -- Load silver_erp_loc_a101 with cleaned location data
     TRUNCATE TABLE silver_erp_loc_a101;
     INSERT INTO silver_erp_loc_a101 
     (cid, cntry)
@@ -171,7 +166,7 @@ BEGIN
         END cntry
     FROM bronze_erp_loc_a101;
 
-    -- silver_erp_px_cat_g1v2
+    -- Append silver_erp_px_cat_g1v2 from bronze without transformation
     INSERT INTO silver_erp_px_cat_g1v2 (
         id,
         cat,
@@ -184,7 +179,5 @@ BEGIN
         subcat,
         maintenance
     FROM bronze_erp_px_cat_g1v2;
-
 END //
-
 DELIMITER ;
