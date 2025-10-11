@@ -1,4 +1,5 @@
-[![Major Upgraded Dashboard](https://img.shields.io/badge/Upgraded%20to%20Dashboard%20v2-blueviolet?style=for-the-badge&logo=powerbi&logoColor=white)](https://github.com/ozaairrr/dw-gold-layer-sales-analytics-dashboard)
+[![MAJOR UPGRADE AVAILABLE](https://img.shields.io/badge/MAJOR%20UPGRADE%20AVAILABLE-purple?style=for-the-badge)](https://github.com/ozaairrr/dw-gold-layer-sales-analytics-dashboard)
+
 # Data Warehouse Project 
 
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
