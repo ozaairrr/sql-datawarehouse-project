@@ -110,7 +110,7 @@ This project demonstrates production-level data engineering skills and modern da
 ## 🔮 Future Enhancements
 - Implement incremental data loading for better scalability
 - Add automated data profiling and anomaly detection
-- Integrate with modern BI tools (Power BI, Tableau)
+- Integrate with Power BI
 - Implement real-time streaming data capabilities
 - Add advanced error handling and monitoring
 
