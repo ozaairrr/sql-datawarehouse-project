@@ -1,6 +1,6 @@
-# Data Warehouse Project
+# Data Warehouse Project [![Upgraded Available!](https://img.shields.io/badge/UPGRADE-Dashboard%20v2-blueviolet?style=for-the-badge&logo=powerbi&logoColor=white)](https://github.com/ozaairrr/dw-gold-layer-sales-analytics-dashboard)
+
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
-[![Upgraded Dashboard Available!](https://img.shields.io/badge/UPGRADE-Dashboard%20v2-blueviolet?style=for-the-badge&logo=powerbi&logoColor=white)](https://github.com/ozaairrr/dw-gold-layer-sales-analytics-dashboard)
 
 ## 🧾 Project Overview
 This project implements a multi-layered data warehouse following the **Medallion Architecture** (Bronze, Silver, and Gold layers). It covers complete data lifecycle from ingestion to analytics-ready dimensional models.
