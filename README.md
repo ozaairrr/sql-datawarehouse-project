@@ -6,7 +6,7 @@ This project implements a multi-layered data warehouse following the **Medallion
 
 ## 🚀 Upgrade Available
 
-A major upgrade is available!  
+A major upgrade is available[11/10/2025]! 
 Check out the enhanced Power BI dashboard with advanced sales analytics and customer insights, built on data from this warehouse:  
 👉 [Executive Sales + Customer Insights Dashboard](https://github.com/ozaairrr/dw-gold-layer-sales-analytics-dashboard)
 
