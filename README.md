@@ -4,6 +4,12 @@ Welcome to the Data Warehouse and Analytics Project repository! 🚀
 ## 🧾 Project Overview
 This project implements a multi-layered data warehouse following the **Medallion Architecture** (Bronze, Silver, and Gold layers). It covers complete data lifecycle from ingestion to analytics-ready dimensional models.
 
+## 🚀 Upgrade Available
+
+A major upgrade is available!  
+Check out the enhanced Power BI dashboard with advanced sales analytics and customer insights, built on data from this warehouse:  
+👉 [Executive Sales + Customer Insights Dashboard](https://github.com/ozaairrr/dw-gold-layer-sales-analytics-dashboard)
+
 
 ## 🎯 Business Problem
 Organizations often struggle with fragmented data scattered across multiple systems (CRM, ERP, sales platforms), making it difficult to:
