@@ -1,6 +1,6 @@
 # 🏢 Enterprise Data Intelligence Platform
 
-> Complete end-to-end data warehouse (Bronze→Silver→Gold) + RFM analytics + Power BI BI dashboard showcasing production-grade data engineering
+> Complete end-to-end data warehouse (Bronze→Silver→Gold) + RFM analytics + Power BI BI dashboard showcasing production-grade work
 
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql)
 ![SQL](https://img.shields.io/badge/SQL-ETL_Pipeline-4479A1?style=flat-square)
