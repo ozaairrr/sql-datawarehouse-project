@@ -1,6 +1,6 @@
 # 🏢 Enterprise Data Intelligence Platform
 
-> A complete end-to-end data warehouse, analytics, and BI solution demonstrating production-grade data engineering practices
+> A complete end-to-end data warehouse, analytics, and BI solution demonstrating production-grade data analytics/engineering practices
 
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=flat-square&logo=mysql)
 ![SQL](https://img.shields.io/badge/SQL-ETL_&_Transformation-4479A1?style=flat-square)
