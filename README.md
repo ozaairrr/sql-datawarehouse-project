@@ -173,18 +173,10 @@ enterprise-data-intelligence-platform/
 │   │       └── CALL silver_load_procedure() transforms data
 │   │
 │   ├── gold/
-│   │   └── 01_create_gold_views.sql
-│   │       ├── gold_dim_customers (18K records)
-│   │       ├── gold_dim_products (500+ records)
-│   │       └── gold_fact_sales (2M+ records)
-│   │
-│   └── datasets/
-│       ├── cust_info.csv
-│       ├── prd_info.csv
-│       ├── sales_details.csv
-│       ├── LOC_A101.csv
-│       ├── CUST_AZ12.csv
-│       └── PX_CAT_G1V2.csv
+│       └── 01_create_gold_views.sql
+│           ├── gold_dim_customers (18K records)
+│           ├── gold_dim_products (500+ records)
+│           └── gold_fact_sales (2M+ records)
 │
 ├── 📊 LAYER_2_ANALYTICS/
 │   ├── analysis_scripts/
@@ -212,18 +204,9 @@ enterprise-data-intelligence-platform/
 │
 ├── 📈 LAYER_3_BI_DASHBOARD/
 │   ├── Executive_Sales_Dashboard.pbix
-│   ├── dashboard_pages/
-│   │   ├── page_1_sales_summary.md
-│   │   └── page_2_customer_insights.md
 │   └── screenshots/
 │       ├── Executive_Sales_Summary.png
 │       └── Customer_Insights.png
-│
-├── 📚 docs/
-│   ├── ARCHITECTURE.md
-│   ├── DATA_DICTIONARY.md
-│   └── GETTING_STARTED.md
-│
 └── README.md
 ```
 
